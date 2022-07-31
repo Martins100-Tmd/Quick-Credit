@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="IMGS/loan3.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body id="page" class="kl">
+    <ul id="hammenu">
+        <i style="font-size:24px" class="fa" id="close">&#xf00d;</i>
+        <a href="Index.html" id="hom">
+            <li>Home</li>
+        </a>
+        <a class="lk">
+            <li>Mode</li>
+        </a>
+        <a href="#" id="stat">
+            <li>Status</li>
+        </a>
+    </ul>
+    <div id="section">
+        <nav>
+            <a href="Index.html" id="h" style="text-align: center;"><i
+                    class="fa">&#xf2dd;</i><span>Quick-Credit</span></a>
+            <ul id="ul">
+                <a href="service.html">
+                    <li>Services</li>
+                </a>
+                <a href="Contact.html">
+                    <li>Contact</li>
+                </a>
+            </ul>
+            <i class="fa" id="ham">&#xf0c9;</i>
+        </nav>
+    </div>
+    <div class="statusslide">
+        <nav>
+
+            <div id="nn">
+                <i class="fa">&#xf24e;</i>
+                <span>Status</span>
+            </div>
+            <div>
+                <i style="font-size:24px" class="fa" id="slideclose">&#xf00d;</i>
+            </div>
+        </nav>
+        <main id="statusmain">
+            <div class="boxdebt" id="boxdebt">
+                <div>
+                    <input type="text" id="statuspword" placeholder="zipcode">
+                </div>
+                <div>
+                    <p>Total-loan</p>
+                    <span id="loan"></span>
+                </div>
+                <div>
+                    <p>Request-Date</p>
+                    <span id="date"></span>
+                </div>
+                <div>
+                    <p>Status</p>
+                    <span id="repay"></span>
+                </div>
+                <div>
+                    <p>Total-paid</p>
+                    <span id="paid"></span>
+                </div>
+                <div>
+                    <p>Interest</p>
+                    <span id="countdown"></span>
+                </div>
+                <div>
+                    <p>Approved-Date</p>
+                    <span id="appdate"></span>
+                </div>
+            </div>
+        </main>
+    </div>
+    <section id="page-section">
+        <div class="left">
+            <!-- <nav>
+                <a href="#"><i class="fa">&#xf2dd;</i> Quick-Credit</a>
+                <input type="search" id="search" placeholder="&#9755; Search for loans">
+            </nav> -->
+            <div class="menus">
+                <div class="lists">
+                    <a href="#" id="stat2">
+                        <i class="fa">&#xf24e;</i>
+                        <span>Status</span>
+                    </a>
+                    <a href="Index.html" id="hom">
+                        <i class="fa">&#xf015;</i>
+                        <span>Logout</span>
+                    </a>
+                    <!-- <a href="#" id="req">
+                        <i class="fa">&#xf080;</i>
+                        <span>request</span>
+                    </a> -->
+                    <a id="mode">
+                        <i style="font-size:24px" class="fa">&#xf042;</i> <span>Mode</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="loan-request">
+                <h1><i class="fa">&#xf2dd;</i> <span>
+                        Quick-Credit
+                    </span></h1>
+                <form action="">
+                    <div class="amount-rate">
+                        <div>
+                            <Label>Amount</Label><br>
+                            <input type="text" id="amount" placeholder="#####" required>
+                        </div>
+                        <div>
+                            <Label>Username</Label><br>
+                            <input type="text" id="rate" placeholder="Username">
+                        </div>
+                    </div>
+                    <div class="paybackpassword">
+                        <div>
+                            <Label>Loan Duration</Label><br>
+                            <input type="text" id="duration" placeholder="Maximum of 10" required>
+                        </div>
+                        <div>
+                            <Label>Password</Label><br>
+                            <input type="password" id="page-pword" required>
+                        </div>
+                    </div>
+                    <div class="numzip">
+                        <div>
+                            <Label>Phone Number</Label><br>
+                            <input type="text" id="num" placeholder="0-9" required>
+                        </div>
+                        <div>
+                            <Label>Country Zipcode</Label><br>
+                            <input type="text" id="zipcode" placeholder="zipcode" required>
+                        </div>
+                    </div>
+                    <button type="button" id="page-btn">Request Loan</button>
+                    <p id="loan-success"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div id="m">
+            <h1> <i style="font-size:30px" class="fa">&#xf2dd;</i> Quick-Credit</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Accusamus ad quidem eius a explicabo
+                architecto<br>
+                tenetur voluptates nesciunt consectetur tempore.</p>
+            <div class="cons">
+                <i style="font-size:24px" class="fa">&#xf081;</i>
+                <i style="font-size:24px" class="fa">&#xf232;</i>
+                <i style="font-size:24px" class="fa">&#xf082;</i>
+                <i style="font-size:24px" class="fa">&#xf16d;</i>
+            </div>
+        </div>
+        <div>
+            <h1>RESOURCES</h1>
+            <div class="list">
+                <p>Application</p>
+                <p>Documentation</p>
+                <p>System</p>
+                <p>FAQS</p>
+            </div>
+        </div>
+        <div>
+            <h1>COMPANY</h1>
+            <div class="list">
+                <p>About Us</p>
+                <p>Blogs</p>
+                <p>Careers</p>
+                <p>Partnerships</p>
+                <p>Press</p>
+            </div>
+        </div>
+        <div>
+            <h1>SOCIAL</h1>
+            <div class="list">
+                <p>Facebook</p>
+                <p>Whatsapp</p>
+                <p>LinkedIn</p>
+                <p>Instagram</p>
+                <p>Twitter</p>
+            </div>
+        </div>
+    </footer>
+    <footer id="last">
+        <p>Quick-credit Online Loan Platform, &copy; Copyright,2022</p>
+    </footer>
+    <script src="Functionalities/page.js" type="module"></script>
+</body>
+
+</html>

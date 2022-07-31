@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="IMGS/loan3.png">
+    <link rel="stylesheet" href="bod.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body id="Acc">
+    <nav id="err">
+        <p>ERROR!, Account not created</p>
+    </nav>
+    <div id="account" class="at">
+        <article>
+            <a href="Index.html" id="a"><i class="fa">&#xf2dd;</i> Quick-Credit</a>
+            <h1 id="h1">Create an Auto Secured Account</h1>
+        </article>
+        <form>
+            <div id="d">
+                <div>
+                    <label for="Fn">FirstName</label><br>
+                    <input type="text" id="Fn" placeholder="Enter your first name" required name="Fn">
+                    <p id="AA"></p>
+                </div>
+                <div>
+                    <label for="Ln">LastName</label><br>
+                    <input type="text" id="Ln" placeholder="Enter your last name" required name="Ln">
+                    <p id="AB"></p>
+                </div>
+            </div>
+            <div id="b">
+                <label for="em">Email</label><br>
+                <input type="email" id="em" placeholder="Enter your email address" required name="em">
+                <p id="AC"></p>
+            </div>
+            <div id="d">
+                <div>
+                    <label for="pword">Password</label><br>
+                    <input type="password" id="pword" required name="pword" placeholder="numbers and alphabets">
+                    <p id="AD"></p>
+                </div>
+                <div>
+                    <label for="Cword">Confirm Password</label><br>
+                    <input type="password" id="Cword" name="Cword" required placeholder="numbers and alphabets">
+                    <p id="AE"></p>
+                </div>
+            </div>
+            <div id="b">
+                <label for="msg">Message</label><br>
+                <input type="text" id="msg" placeholder="Tell us something about you" required name="msg">
+                <p id="AF"></p>
+            </div>
+            <a href="login.html" id="roc">
+                <input type="button" id="btn2" value="Submit" name="btn2">
+                <div id="p">
+                    <a href="login.html" id="buil">
+                        Already have an Account?
+                    </a>
+                </div>
+            </a>
+        </form>
+    </div>
+    <script src="Functionalities/create.js" type="module"></script>
+</body>
+
+</html>

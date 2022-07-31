@@ -1,0 +1,138 @@
+[
+    [
+        {
+        "name":"Williams Smith",
+        "amount":90000,
+        "paid":50000,
+        "balance":40000,
+        "job":"Fashion Designer",
+        "date":"Teu 17th, 2022",
+        "image":"/IMGs/B.jpg",
+        "Email":"Williams@gmail.com"
+    },
+    {
+        "name":"Allison Argent",
+        "amount":20000,
+        "paid":5000,
+        "balance":15000,
+        "job":"Fashion Designer",
+        "date":"Teu 07th, 2022",
+        "image":"/IMGs/C.jpg",
+        "Email":"Argent@gmail.com"
+    },
+    {
+        "name":"Jenner Bilkishau",
+        "amount":40000,
+        "paid":10000,
+        "balance":30000,
+        "job":"Teacher",
+        "date":"Wed 21th, 2022",
+        "image":"/IMGs/D.jpg",
+        "Email":"Jenner@gmail.com"
+    },
+    {
+        "name":"John Doe",
+        "amount":140000,
+        "paid":80000,
+        "balance":60000,
+        "job":"Transporter",
+        "date":"Fri 17th, 2021",
+        "image":"/IMGs/A.jpg",
+        "Email":"JohnDoe@gmail.com"
+    },
+    {
+        "name":"Billy Anderson",
+        "amount":350000,
+        "paid":150000,
+        "balance":200000,
+        "job":"Trader",
+        "date":"Wed 30th, 2022",
+        "image":"/IMGs/E.jpg",
+        "Email":"Billy@gmail.com"
+    },
+    {
+        "name":"Gary Andrew",
+        "amount":1000000,
+        "paid":900000,
+        "balance":100000,
+        "job":"Importer",
+        "date":"Mon 2nd, 2022",
+        "image":"/IMGs/F.jpg",
+        "Email":"Malika@gmail.com"
+    }
+],
+[
+    {
+        "name":"Liam Miller",
+        "amount":20000,
+        "job":"Security Officer",
+        "dateofrepay":"30-08-2020",
+        "rate":7,
+        "image":"/IMGs/AA.jpg",
+        "Email":"LiamMiller@gmail.com"
+    },
+    {
+        "name":"Phoebie Tuscan",
+        "amount":409000,
+        "job":"Security Officer",
+        "dateofrepay":"30-08-2020",
+        "rate":7,
+        "image":"/IMGs/BB.jpg",
+        "Email":"Miller@gmail.com"
+    },
+    {
+        "name":"Malika Andrews",
+        "amount":204000,
+        "job":"Style Advisor",
+        "dateofrepay":"21-10-2020",
+        "rate":3,
+        "image":"/IMGs/CC.jpg",
+        "Email":"Gary@gmail.com"
+    },
+    {
+        "name":"Fiona Watson",
+        "amount":300000,
+        "job":"Barista",
+        "dateofrepay":"07-01-2023",
+        "rate":7,
+        "image":"/IMGs/DD.jpg",
+        "Email":"Fiona@gmail.com"
+    },
+    {
+        "name":"Charlie Beckham",
+        "amount":320000,
+        "job":"Burger King",
+        "dateofrepay":"30-06-2023",
+        "rate":9,
+        "image":"/IMGS/EE.jpg",
+        "Email":"Beckham@gmail.com"
+    },
+    {
+        "name":"Lilly Micheal",
+        "amount":70000,
+        "job":"Line Cook",
+        "dateofrepay":"10-11-2022",
+        "rate":6,
+        "image":"/IMGs/FF.jpg",
+        "Email":"MansonHarry@gmail.com"
+    },
+    {
+        "name":"Keisha Helen",
+        "amount":1200000,
+        "job":"Cashier",
+        "dateofrepay":"10-02-2023",
+        "rate":8,
+        "image":"/IMGs/GG.jpg",
+        "Email":"Hommes@gmail.com"
+    },
+    {
+        "name":"Nora Wondermans",
+        "amount":170000,
+        "job":"Cashier",
+        "dateofrepay":"10-02-2023",
+        "rate":8,
+        "image":"/IMGs/II.jpg",
+        "Email":"Hommes@gmail.com"
+    }
+]
+]
